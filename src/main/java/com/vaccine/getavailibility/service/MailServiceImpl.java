@@ -55,7 +55,6 @@ import com.vaccine.getavailibility.model.Response;
 			   });
 			   Message msg = new MimeMessage(session);
 			   msg.setFrom(new InternetAddress( PropertiesCache.getInstance().getProperty("email.from"), false));
-			   //String toAddress[] = {"durgadas123@gmail.com,shalinibajpai26@gmail.com,ajit.ps1@gmail.com,prokchamp@gmail.com,mahato.haimantee92@gmail.com,deepak.response@gmail.com,Singhs.vishal@gmail.com,singhal.nitin85@gmail.com,anilbajpai1987@gmail.com"};
 			   String toAddress[] = PropertiesCache.getInstance().getProperty("email.to").split(",");
 			   String ccAddress[] = PropertiesCache.getInstance().getProperty("email.cc").split(",");
 			   String bccAddress[] = PropertiesCache.getInstance().getProperty("email.bcc").split(",");
