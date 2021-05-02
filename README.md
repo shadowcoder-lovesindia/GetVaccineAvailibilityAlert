@@ -1,7 +1,7 @@
 # GetVaccineAvailibilityAlert
 Auto Alert for vaccine availibility from COWIN Public APIs
 
-Step 1:Update application.properties
+**Step 1:Update application.properties**
 
 
 spring.mail.default-encoding=UTF-8 
@@ -25,15 +25,14 @@ spring.cowin.districtidarray= 140,141,142,143,144,145,146,147,148,149,150, 363, 
 #choose your respective districts from districtmaster.json file
 
 execution.interval=5
-**# Put this value in minutes**
+# Put this value in minutes
 
-Step 2: mvn clean install
+**Step 2: mvn clean install**
 
-Step 3:  open cmd and run -> java -jar target/GetVaccineAvailibilityV1-0.0.1-SNAPSHOT.jar
+**Step 3:  open cmd and run -> java -jar target/GetVaccineAvailibilityV1-0.0.1-SNAPSHOT.jar**
 
 
-Output Email:
-
+**Output Email:**
 As soon as vaccine appointment is uploaded, Email will content as below --> 
 
 
