@@ -3,6 +3,7 @@ Auto Alert for vaccine availibility from COWIN Public APIs
 
 Step 1:Update application.properties
 
+
 spring.mail.default-encoding=UTF-8 
 spring.mail.host=smtp.gmail.com # -> Put your SMTP Host name 
 spring.mail.username=abc@gmail.com # -> If using gmail , please go to google allow settings and allow less security
