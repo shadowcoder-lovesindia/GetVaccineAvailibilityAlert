@@ -1,9 +1,7 @@
 # GetVaccineAvailibilityAlert
 Auto Alert for vaccine availibility from COWIN Public APIs
 
-Step 1:
-
-Update application.properties
+Step 1:Update application.properties
 
 spring.mail.default-encoding=UTF-8 
 spring.mail.host=smtp.gmail.com # -> Put your SMTP Host name 
@@ -26,7 +24,7 @@ spring.cowin.districtidarray= 140,141,142,143,144,145,146,147,148,149,150, 363, 
 #choose your respective districts from districtmaster.json file
 
 execution.interval=5
-# Put this value in minutes
+**# Put this value in minutes**
 
 Step 2: mvn clean install
 
